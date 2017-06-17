@@ -460,27 +460,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<script type="text/javascript" src="js/jquery.flexisel.js"></script>	
 				</div>		
    <!--//news-->
-   <div class="bottom">
-		<div class="container">
-			<div class="bottom-top">
-				<h3>Opening Hours of <span class="opening">Medicinal</span></h3>
-				<p>Phasellus tempor erat id erat gravida pulvinar. Aenean est felis, ullamcorper et volutpat sed, cursus at enim. Vestibulum vel finibus neque. In sed magna tellus.</p>
-				<div class="opening_hours">
-						 <ul class="times">
-							<h4>Opening <span class="opening">Hours</span></h4>
-							<li><i class="glyphicon glyphicon-time"> </i><span class="week">Monday</span><div class="hours">9:30 am – 3:30 pm</div>  <div class="clearfix"></div></li>
-							<li><i class="glyphicon glyphicon-time"> </i><span class="week">Tuesday</span><div class="hours">10:30 am – 5:30 pm</div>  <div class="clearfix"></div></li>
-							<li><i class="glyphicon glyphicon-time"> </i><span class="week">Wednesday</span><div class="hours">8:30 am – 1:30 pm</div>  <div class="clearfix"></div></li>
-							<li><i class="glyphicon glyphicon-time"> </i><span class="week">Thrusday</span><div class="hours">11:30 am – 2:30 pm</div>  <div class="clearfix"></div></li>
-							<li><i class="glyphicon glyphicon-time"> </i><span class="week">Friday</span><div class="hours">10:00 am – 2:00 pm</div>  <div class="clearfix"></div></li>
-							<li><i class="glyphicon glyphicon-time"> </i><span class="week">Saturday</span><div class="hours">11:30 am – 2:30 pm</div>  <div class="clearfix"></div></li>
-							<li><i class="glyphicon glyphicon-time"> </i><span class="week">Sunday</span><div class="hours">Family Doctor</div>  <div class="clearfix"></div></li>
-	
-						 </ul>
-					</div>
-			</div>
-		</div>
-</div>
+  
    <!--/reviews-->
 	<div id="review" class="testimonials-review">
 		<div class="container">
