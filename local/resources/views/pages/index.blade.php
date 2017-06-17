@@ -14,14 +14,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <meta name="keywords" content="Medicinal Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
 <script type="applisalonion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="{{asset('css/bootstrap.css') }}" rel='stylesheet' type='text/css' />
 <!-- Custom Theme files -->
-<link rel ="stylesheet" href="{{asset('css/style.css') }}">
 <link rel="stylesheet" href="css/slider.css">
+<link rel ="stylesheet" href="{{asset('css/style.css') }}">
 <script src="js/jquery-1.11.1.min.js"></script>
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
-<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <!--/web-font-->
 <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
@@ -41,7 +43,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<!--header-top-->
 			<div class="header-top">
 			  <div class="container">
-					 <nav class="navbar navbar-default">
+			  	<nav class="navbar navbar-default">
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<div class="navbar-header">
 					  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -51,38 +53,50 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span class="icon-bar"></span>
 					  </button>
 						<div class="logo">
-							<h1><a class="navbar-brand" href="index.html"><span>M</span>edicinal  <img src="images/logo.png" alt=" " /></a></h1>
+							<h1><a class="navbar-brand" href="index.html"><span>LUÔN</span> BÊN BẠN  <img src="images/logo.png" alt=" " /></a></h1>
+						</div>
+						
+					</div>
+					<div class="imgLogin">
+						<a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+							<img src="images/ab.jpg" alt="">Chinh 18+
+							<i class="fa fa-sort-desc" aria-hidden="true"></i>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="javascript:;"><i class="icon-edit"></i> Thông tin cá nhân</a></li>
+							<li><a href="login.html"><i class="fa fa-sign-out"></i> Đăng xuất</a></li>
+						</ul>
+					</div>
+					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+						<div class="top-menu">
+							<nav class="menu menu--francisco">
+								<ul class="nav navbar-nav menu__list">
+									<li class="menu__item menu__item--current"><a href="index.html" class="menu__link"><span class="menu__helper">Trang chủ</span></a></li>
+									<li class="menu__item"><a href="about.html" class="menu__link"><span class="menu__helper">Tra cứu</span></a></li>
+									<li class="menu__item"><a href="typography.html" class="menu__link"><span class="menu__helper">Trắc nghiệm</span></a></li>
+									<li class="menu__item"><a href="gallery.html" class="menu__link"><span class="menu__helper">Hỗ trợ</span></a></li>
+									<li class="menu__item"><a href="contact.html" class="menu__link"><span class="menu__helper">Thông tin</span></a></li>
+									<li class ="menu__item"> 
+										<div id="custom-search-input">
+
+											<div class="input-group ">
+												<input type="text" class="  search-query form-control" placeholder="Nhập từ khóa tìm kiếm..." />
+												<span class="input-group-btn">
+													<button class="btn btn-danger" type="button">
+														<span class=" glyphicon glyphicon-search"></span>
+													</button>
+												</span>
+											</div>
+
+										</div></li>
+								</ul>
+							</nav>
 						</div>
 					</div>
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
-						  <div class="top-menu">
-							<nav class="menu menu--francisco">
-									<ul class="nav navbar-nav menu__list">
-										<li class="menu__item menu__item--current"><a href="index.html" class="menu__link"><span class="menu__helper">Home</span></a></li>
-										<li class="menu__item"><a href="about.html" class="menu__link"><span class="menu__helper">About Us</span></a></li>
-										<li class="menu__item"><a href="typography.html" class="menu__link"><span class="menu__helper">Short Codes</span></a></li>
-										<li class="menu__item"><a href="gallery.html" class="menu__link"><span class="menu__helper">Departments</span></a></li>
-										<li class="menu__item"><a href="contact.html" class="menu__link"><span class="menu__helper">Contact Us</span></a></li>
-									</ul>
-								</nav>
-							</div>
-					</div>
-				{{-- 	<div class="search_tk">
-					    	<div class="input-group">
-						      	<input type="text" class="form-control" placeholder="Search for...">
-						      	<span class="input-group-btn">
-						      		<button class="btn btn-default" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
-						    	</span>
-    						</div><!-- /input-group -->
-
-	
-					</div> --}}
-					<!-- /.navbar-collapse -->
+					
 				</nav>
-
-			   <div class="clearfix"></div>
 			</div>
 	</div>
 <!--//header-top-->
@@ -182,71 +196,71 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	
 		<!-- Services -->
 			<div class="medicinal-w3">
-				<div class="container">
 				    <div class="sub-hd">
-						<h3 class="tittle two">OUR <span>SERVICES</span></h3>
-					</div>
-					<div class="medicinal-w3-grids one">
-						<div class="col-md-6 medicinal-w3-grid">
-							<div class="col-md-8 medicinal-w3-left">
-								<h4>LOREM IPSUM DOLOR</h4>
-								<p>sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi. </p>
+						<h3 class="tittle two">KHOA ĐIỀU TRỊ</h3>
+					<div class="medicinal-w3-grids">
+						<div class="col-md-4">
+							<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
+								<a href="#" class="hi-icon icon3"></a>
 							</div>
-							<div class="col-md-4 medicinal-w3-right">
-								<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
-									<a href="#" class="hi-icon icon1"></a>
-								</div>
-							</div>
-							<div class="clearfix"></div>
+							<h4>Răng-Hàm-Mặt</h4>
 						</div>
-						<div class="col-md-6 medicinal-w3-grid">
-							<div class="col-md-4 medicinal-w3-right">
-								<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
-									<a href="#" class="hi-icon icon2"></a>
-								</div>
+
+						<div class="col-md-4 ">
+							<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
+								<a href="#" class="hi-icon icon3"></a>
 							</div>
-							<div class="col-md-8 medicinal-w3-left1">
-								<h4>LOREM IPSUM DOLOR</h4>
-								<p>sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi. </p>
+				
+							<h4>LOREM IPSUM DOLOR</h4>
+						</div>
+
+						<div class="col-md-4">
+							<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
+								<a href="#" class="hi-icon icon3"></a>
 							</div>
-							<div class="clearfix"></div>
+							<h4>LOREM IPSUM DOLOR</h4>
 						</div>
 						<div class="clearfix"></div>
+						
+
 					</div>
 					<div class="medicinal-w3-grids">
-						<div class="col-md-6 medicinal-w3-grid">
-							<div class="col-md-8 medicinal-w3-left">
-								<h4>LOREM IPSUM DOLOR</h4>
-								<p>sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi. </p>
+						<div class="col-md-4">
+							<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
+								<a href="#" class="hi-icon icon3"></a>
 							</div>
-							<div class="col-md-4 medicinal-w3-right">
-								<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
-									<a href="#" class="hi-icon icon3"></a>
-								</div>
-							</div>
-							<div class="clearfix"></div>
+
+							<h4>LOREM IPSUM DOLOR</h4>
 						</div>
-						<div class="col-md-6 medicinal-w3-grid">
-							<div class="col-md-4 medicinal-w3-right">
-								<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
-									<a href="#" class="hi-icon icon4"></a>
-								</div>
+
+						<div class="col-md-4">
+							<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
+								<a href="#" class="hi-icon icon3"></a>
 							</div>
-							<div class="col-md-8 medicinal-w3-left1">
-								<h4>LOREM IPSUM DOLOR</h4>
-								<p>sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi. </p>
+
+							<h4>LOREM IPSUM DOLOR</h4>
+						</div>
+
+						<div class="col-md-4">
+							<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
+								<a href="#" class="hi-icon icon3"></a>
 							</div>
-							<div class="clearfix"></div>
+
+							<h4>LOREM IPSUM DOLOR</h4>
 						</div>
 						<div class="clearfix"></div>
+						
+
 					</div>
+					<div class = "readmore"><a href=""> Xem thêm >> </a></div>
 				</div>
+
 			</div>
 			<!--medicinal-->
 			<div class="grid_2" id="tender">
    	 <div class="container">
 	       <div class="sub-hd">
-						<h3 class="tittle">SUCCESSFUL <span>STORIES</span></h3>
+						<h3 class="tittle">TIN TỨC <span>Y TẾ</span></h3>
 					</div>
    	  <div class="box_1 one">
    	 	<div class="col-md-6">
@@ -316,7 +330,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<!---news-->
 						<div class="review-slider">
 		<div class="sub-hd">
-						<h3 class="tittle">OUR LATEST <span>NEWS</span></h3>
+						<h3 class="tittle">BLOG'S<span> SỨC KHỎE</span></h3>
 					</div>
 								 <ul id="flexiselDemo1">
 								<li>
