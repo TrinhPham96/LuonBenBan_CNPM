@@ -10,4 +10,8 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/', 'MyFirstController@getIndex');
+Route::get('trang-chu', 'MyFirstController@getIndex');
+
+Route::get('danh-sach-bac-si','MyFirstController@getListDoctor');
+
+Route::get('chi-tiet-bac-si','MyFirstController@getDetailsDoctor');

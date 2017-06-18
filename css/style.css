@@ -1,4 +1,4 @@
-/*--A Design by W3layouts 
+dropd/*--A Design by W3layouts 
 Author: W3layout
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
@@ -53,7 +53,6 @@ img {
     -moz-osx-font-smoothing: grayscale;
 }
 .dropdown-menu {
-
     margin-top: -80px;
     margin-left: 1080px;
     float: right;
@@ -3557,3 +3556,283 @@ float:left;
         padding: 0 5px!important;
     }
 }
+/*CSS trang listDoctor*/
+.content{
+    width: 100%;
+    min-height: 1500px;
+    box-sizing: border-box;
+}
+.left{
+    float: left;
+    width: 65%;
+    
+
+}
+.doctor{
+    width: 100%;
+    height: 180px;
+    margin-left: 65px;
+    border-bottom: 1px solid #C0C0C0;
+    margin-top: 30px;
+
+}
+.img_doctor{
+    float:left;
+    height: 180px;
+    margin-right: 20px;
+    width: 160px;
+}
+.img_doctor img{
+    width: 160px;
+    height: 160px;
+    margin-top: 10px;
+
+   
+}
+
+.tieu_de h2{
+    font-family: 'Open Sans', sans-serif!important;
+    color: #E45753;
+    font-weight: bold;
+    padding-top: 10px;
+
+}
+.info_doctor{
+    width: 700px;
+    
+    
+}
+.info_doctor h3{
+    padding: 8px;
+    font-weight: bold;
+    margin-left: 30px;
+    color: #23b5b9;
+    font-family: 'Open Sans', sans-serif!important;
+  
+}
+.noname{
+    margin-bottom: 13px;
+}
+
+.noname img{
+    float: left ;
+    margin-left: 15px;
+}
+.chitiet_bacsi{
+    margin-right: 10px;
+    padding: 8px;
+}
+.chitiet_bacsi a{
+    margin-right: 10px;
+    padding: 8px;
+    color: #23b5b9;
+}
+.right{
+    float: right;
+    width: 25%;
+    margin-right: 30px;
+    margin-top: 100px;
+}
+.list_right{
+    margin-top: 60px;
+    border-radius: 40px;
+    width: 80%;
+    border: 1px solid #C0C0C0;
+    height: 380px;
+}
+.list_right h4{
+    padding-top: 5px;
+    border-bottom: 1px solid #C0C0C0;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif!important;
+    font-size: 30px;
+}
+.chuyenkhoa{
+    padding-top: 10px;
+    margin-top: 5px;
+    width: 100%;
+    height: 30px;
+    
+}
+.ten_CK {
+    float: left;
+    width: 150px;
+    padding-left: 20px;
+    
+}
+.soluong_BS {
+    float: right;
+    font-style: italic;
+    font-size: 12px;
+    padding-right: 20px;
+}
+.neednote{
+    padding-top: 10px;
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #C0C0C0;
+
+}
+.neednote img{
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.neednote p{
+    width: 200px;
+    float: right;
+    margin-right: 10px;
+    font-size: 12px;
+ 
+}
+.tieu_de{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.tieu_de p{
+    font-size: 13px;
+    margin-left: 65px;
+
+}
+.tieu_de h2{
+    margin-left: 65px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.dropdown {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.06)) repeat scroll 0 0 #F2F2F2;
+    border-color: #C0C0C0;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+    display: inline-block;
+    height: 28px;
+    overflow: hidden;
+    position: relative;
+    width: 150px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.dropdown:before, .dropdown:after {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #888888 rgba(0, 0, 0, 0);
+    border-image: none;
+    border-style: dashed;
+    border-width: 4px;
+    content: "";
+    height: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 10px;
+    top: 9px;
+    width: 0;
+    z-index: 2;
+}
+.dropdown:before {
+    border-bottom-style: solid;
+    border-top: medium none;
+}
+.dropdown:after {
+    border-bottom: medium none;
+    border-top-style: solid;
+    margin-top: 7px;
+}
+.dropdown-select {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border: 0 none;
+    border-radius: 0;
+    color: #62717A;
+    font-size: 14px;
+    height: 30px;
+    line-height: 14px;
+    margin: 0;
+    padding: 2px 6px 8px 15px;
+    position: relative;
+    text-shadow: 0 1px #FFFFFF;
+    width: 130%;
+
+}
+
+.dropdown-select:focus {
+    color: #394349;
+    outline: 2px solid #49AFF2;
+    outline-offset: -2px;
+    width: 100%;
+    z-index: 3;
+}
+.dropdown-select > option {
+    background: none repeat scroll 0 0 #F2F2F2;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 3px;
+    padding: 6px 8px;
+    text-shadow: none;
+}
+.filter{
+    margin-left: 45px;
+}
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 20px 0 0 400px ;
+    border-radius: 4px;
+   
+}
+ol, ul {
+    list-style: none;
+}
+.pagination > li {
+    display: inline;
+}
+.infoDoctor_left{
+    float: left;
+    width: 20%;
+    height: 500px;
+    margin-left: 70px;
+    margin-right: 20px;
+}
+.btn_infoDoctor{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.infoDoctor_right{
+    width:70%;
+    margin-right: 30px; 
+    min-height: 500px;
+    background-size: cover;
+    float: right;
+ 
+}
+.infoDoctor_right p{
+    padding: 15px;
+ /*   color: white;*/
+}
+.chuyenkhoa-infDoc {
+    margin-left: 15px;
+}
+.chuyenkhoa-infDoc-title p{
+    margin-left: 3px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif!important;
+    font-size: 18px;
+}
+.chuyenkhoa-infDoc ul > li{
+    font-size: 13px;
+    font-style: normal;
+    display: inline-block;
+    margin-right: 50px;
+} 
+..chuyenkhoa-infDoc ul{
+    margin-left: 15px;
+    margin-top: 50px;
+}  

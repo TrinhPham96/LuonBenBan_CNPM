@@ -16,7 +16,7 @@
 					</div>
 					<div class="imgLogin">
 						<a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-							<img src="images/ab.jpg" alt="">Chinh 18+
+							<img src="images/ab.jpg" alt=""> Chinh 18+
 							<i class="fa fa-sort-desc" aria-hidden="true"></i>
 						</a>
 						<ul class="dropdown-menu">

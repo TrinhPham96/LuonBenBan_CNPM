@@ -11,5 +11,10 @@ class MyFirstController extends Controller
     public function getIndex(){
     	return  view('pages.index');
     }
-    
+    public function getListDoctor(){
+    	return view('pages.listDoctor');
+    }
+    public function getDetailsDoctor(){
+    	return view ('pages.detailsDoctor');
+    }
 }
