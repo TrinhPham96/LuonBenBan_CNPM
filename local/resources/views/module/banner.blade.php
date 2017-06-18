@@ -33,22 +33,7 @@
 					</div>
 				</div>				
 			</div>
-			<div class="slide bg-4">
-				<div class="slide-container">
-					<div class="slide-content">
-					<p>Lorem ipsum <span class="s-p">dolor</span> sit </p>		
-
-					</div>
-				</div>				
-			</div>
-			<div class="slide bg-5">
-				<div class="slide-container">
-					<div class="slide-content">
-					<p>Welcome to <span class="s-p">Medicinal</span>!</p>	
-
-					</div>
-				</div>				
-			</div>
+			
 
 			<!-- Navigation Arrows with Thumbnails -->
 			<nav class="nav-split">
@@ -73,8 +58,7 @@
 				<span class="current"></span>
 				<span></span>
 				<span></span>
-				<span></span>
-				<span></span>
+				
 			</nav>
 
 			</div>
