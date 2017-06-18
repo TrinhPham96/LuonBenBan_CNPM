@@ -1,4 +1,3 @@
-
 @extends('templates.master')
 @section('title', 'Trang chủ')
 @section('main')
