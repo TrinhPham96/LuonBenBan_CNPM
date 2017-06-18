@@ -15,3 +15,4 @@ define('LARAVEL_START', microtime(true));
 */
 
 require __DIR__.'/local/boostrap/autoload.php';
+$app = require_once __DIR__.'/local/boostrap/app.php';
