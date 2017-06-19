@@ -1,8 +1,8 @@
 <!-- Services -->
-@include('module.cont1')
+@include('module.speciality_cont')
 <!--medicinal-->
-@include('module.cont2')
+@include('module.news_cont')
 <!--//team-->
 <!---news-->
-@include('module.cont3')
+@include('module.blog_cont')
 <!--//news-->
