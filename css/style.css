@@ -726,7 +726,7 @@ a.navbar-brand img {
       line-height: 1.9em;
     margin-top: 0.7em;
     font-size: 0.9em;
-    color: #E0DFDF;
+    /*color: #E0DFDF;*/
 }
 .medicinal-w3-grids h4 ,.search_content-grids h4{
     font-weight: 600;
@@ -778,7 +778,7 @@ a.hi-icon.icon4:hover {
     margin-bottom:3em;
 }
 .medicinal-w3 {
-     padding: 3em 0 0 0;
+    padding: 0.5em 0 0 0;
     height: 600px;
 }
 .medicinal-w3-grids {
@@ -1068,13 +1068,13 @@ p.p1{
         font-family: 'Montserrat',sans-serif!important;
 }
 .sub-hd h3.tittle {
-    font-size: 3em;
+    font-size: 2em;
     font-weight:300;
-        color: #222;
-            font-family: 'Open Sans', sans-serif!important;
+    color: green;
+    font-family: 'Open Sans', sans-serif!important;
 }
 .sub-hd h3.tittle.two{
-    color:#E45753;
+    /*color:#E45753;*/
     font-weight: bold;
 }
 .sub-hd {
@@ -1496,7 +1496,7 @@ section#tables  p {
  margin-top: 1em;
 }
 .breadcrumb li {
-    font-size:0.9em;
+    font-size:1.1em;
 }
 a.list-group-item {
     color: #555;
@@ -2440,15 +2440,17 @@ float:left;
         z-index: 10;
         left: 1.5%;
     }
+
     .nav-tabs>li>a {
         margin: 0 1px;
         padding: 15px 22px;
     }
+
     .medicinal-w3-right {
         float: left;
     }
     .medicinal-w3-left {
-        text-align: right;
+        text-align: left;
         float: left;
         width: 58%;
     }
@@ -3568,3 +3570,19 @@ float:left;
      padding: 3em 0 0 0;
     height: 580px;
 }
+
+.main{
+    margin-top: 20px;
+    /*height: 700px;*/
+}
+
+
+.lbSpeciList, .lblKhoaName{
+    margin-left: 10px;
+}
+
+.lbSpeciList{
+    margin-top: 5px;
+    color: rgb(46, 66, 252);
+}
+
