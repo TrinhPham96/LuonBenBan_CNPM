@@ -13,17 +13,17 @@
 
 			<div class="col-md-4 ">
 				<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
-					<a href="#" class="hi-icon icon3"></a>
+					<a href="/LuonBenBan_CNPM/danh-sach-khoa" class="hi-icon icon3"></a>
 				</div>
 				
-				<h4>LOREM IPSUM DOLOR</h4>
+				<h4>Khoa</h4>
 			</div>
 
 			<div class="col-md-4">
 				<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
 					<a href="#" class="hi-icon icon3"></a>
 				</div>
-				<h4>LOREM IPSUM DOLOR</h4>
+				<h4>Bác sĩ</h4>
 			</div>
 			<div class="clearfix"></div>
 
@@ -35,7 +35,7 @@
 					<a href="#" class="hi-icon icon3"></a>
 				</div>
 
-				<h4>LOREM IPSUM DOLOR</h4>
+				<h4>Thuốc</h4>
 			</div>
 
 			<div class="col-md-4">
@@ -43,7 +43,7 @@
 					<a href="#" class="hi-icon icon3"></a>
 				</div>
 
-				<h4>LOREM IPSUM DOLOR</h4>
+				<h4>Bệnh</h4>
 			</div>
 
 			<div class="col-md-4">

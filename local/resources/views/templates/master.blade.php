@@ -20,3 +20,5 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	@yield('main')
 	<!--/start-footer-section-->
 	@include('widgets.footer')
+</body>
+</html>s	

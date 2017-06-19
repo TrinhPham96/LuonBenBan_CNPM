@@ -1,0 +1,357 @@
+body{
+	background-color :#004869;
+	font-family: "Segoe UI",Arial,sans-serif;
+}
+
+.header{
+	background-color :#004869;
+	width: 100%;
+    height: 80px;
+}
+#imgLogo{
+	border-radius: 30px;
+	width: 80px;
+
+
+}
+#title{
+color: white;
+margin-left: 70px;
+margin-top: -50px;
+font-size: 32px;
+
+}
+.login{
+	float: right;
+	margin-top: -60px;
+	margin-right: 20px;
+}
+
+.icon-user{
+	width: 55px;
+	height: 55px;
+	
+}
+
+.login a, .login a:hover{
+	color: white;
+	text-decoration: none;
+}
+.nav{
+  margin-top:30px;
+
+
+
+
+}
+.nav ul{
+	margin-top: 5px;
+	list-style: none;
+	font-size: 18px;
+
+}
+.nav ul li {
+	display:inline-block;
+	 margin-left: 25px;
+
+}
+.nav ul li a{
+	text-decoration: none;
+}
+.input-group{
+	width: 300px;
+	float: right;
+	margin-right: 30px;
+	margin-top: -5px;
+	
+
+}
+
+.footer{
+	background-color :#004869;
+}
+
+.inf ,.sdt,.email{
+	font-size: 20px;
+	color: #dfdfdf;
+
+}
+#HospitalName{
+	font-size: 20px;
+}
+.inf .HospitalAddress{
+	font-size: 17px;
+}
+#img-slider{
+	width: 100%;
+	height: 400px;
+}
+#Spec,.HealthNews,.HealthBlog{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	color: green;
+	font-size: 24px;
+}
+ 
+.content-spec{
+	margin-top: 15px;
+	margin-bottom:10px; 
+	margin-left: 200px;
+	width: 100%;
+	height: auto;
+	padding: 20px;
+	border-radius: 30px;
+
+
+}
+
+.content-menu-search{
+	margin-top: 15px;
+	margin-bottom:10px; 
+	margin-left: 300px;
+	margin-right: 100px;
+	height: auto;
+	padding: 40px;
+	border-radius: 30px;
+	}
+	.cont-menu-search{
+	border-radius: 30px;
+	height: auto;
+	margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right:50px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 10px;
+
+
+}
+#img-menu-Search{
+width: 80px;
+    height: 80px;
+    margin-left: 10PX;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.cont-menu{
+	border-radius: 30px;
+	width: 100%;
+	height: auto;
+    margin: 35px;
+    padding: 10px;
+
+}
+
+#xemthem{
+	text-align: center;
+	margin-top: 100px;
+	margin-left: 20px;
+
+}
+.linkToKhoa{
+	font-size: 18px;
+	color: green;
+
+}
+#xemthem a{
+	text-decoration: none;
+}
+#imgSpeciality{
+	width: 80px;
+    height: 80px;
+    margin: 15px;
+}
+
+.mySlides {
+	display:none;
+}
+.slider{
+
+	margin-top: 40px;
+}
+.cont-news,.cont-blog{
+	width: 90%;
+	height: 280px;
+}
+.txtNewsNo{
+	font-size: 18px;
+	color: green;
+}
+.linkToPrevious_linkToNext {
+	margin-top: 20px;
+	margin-left: 540px;
+	color: green;
+	font-size: 20px;
+}
+.linkToPrevious,.linkToNext{
+	width: 70px;
+}
+
+.main{
+	margin-top: 20px;
+	height: 700px;
+}
+
+.brcKhoa{
+	margin-top: 55px;
+	height: 30px;
+	width: 300px;
+	border-radius: 2px;
+}
+
+.brcKhoa a:hover{
+	text-decoration: none;
+}
+
+.lbSpeciList, .brcKhoa, .lblKhoaName{
+	margin-left: 10px;
+}
+
+.lbSpeciList{
+	margin-top: 5px;
+	color: rgb(46, 66, 252);
+}
+
+.txtInfoKhoa a{
+	margin: -10px;	
+}
+.txtInfoKhoa a:hover{
+	text-decoration: none;
+}
+
+.khoa{
+	margin-left: 30px;
+}
+
+.khoa h4{
+	color: rgb(0, 202, 0);
+}
+
+.page{
+	margin: auto;
+}
+
+.pg{
+	height: 20px;
+	width: 20px;
+}
+
+.lblKhoaName{
+	color: rgb(46, 66, 252);
+}
+
+.doctor, .listDoctors a:hover{
+	text-decoration: none;
+
+}
+
+.listDoctors{
+	margin-top: 10px;
+	float: left;
+}
+
+.doctor{
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 10px;
+	text-align: center;
+}
+
+.txtDoctorName{
+	float: left;
+	margin-left: 10px;
+}
+
+.imgLinkToDoctor{
+
+}
+
+.lblPre{
+	float: left;
+}
+
+.lblNext{
+	float: left;
+}
+
+.lblPre, .lblNext {
+	margin-top: 50px;
+}
+
+.line{
+	border: solid rgb(195, 195, 195) 0.1px;
+	height: 111px;
+	float: right;
+	margin-top: 15px;        
+}
+
+.listBenh, .lstBenh, .listMedicine, .lstMedicine{
+	margin-top: 10px;
+}
+
+.listMedicine, .listBenh, .listDoctors{
+	display: block;
+}
+
+.lstMedicine{
+	margin-left: 90px;
+	
+}
+
+.lstBenh{
+	margin-left: 60px;
+}
+
+.lblListDoctors {
+	margin-left: 250px;
+}
+
+.lblBenh, .lblMedicine{
+	margin-left: 110px;
+}
+
+.lblIntro, .areaIntro2{
+	margin-top: 10px;
+}
+
+.lblIntro{
+	color: rgb(0, 202, 0);
+}
+
+.areaIntro, .lblIntro{
+	margin-left: 15px;
+}
+
+.intro2{
+	float: left;
+}
+
+.text{
+	text-align:center;
+	margin-top:10px;
+	font-size:36px;
+	font-style:italic
+}
+
+.text-item{
+	text-align:center;
+	padding-top:10px;
+	height:40px;
+	font-size:17px;
+	color:	#090;
+	background-color:#CFF
+}
+
+.textctt{
+	padding-left:20px;
+	font-size:24px;
+	margin-top:10px;
+}
+
+.thuoc{
+	color: rgb(0, 202, 0);
+}
+

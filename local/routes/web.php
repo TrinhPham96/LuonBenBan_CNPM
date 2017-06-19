@@ -11,4 +11,7 @@
 |
 */
 Route::get('/trang-chu', 'MyFirstController@getIndex');
+
 Route::get('/tra-cuu', 'MyFirstController@getSearch');
+
+Route::get('/danh-sach-khoa', 'MyFirstController@getSpecialList');
