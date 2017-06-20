@@ -10,13 +10,13 @@
 				<span class="icon-bar"></span>
 			</button>
 			<div class="logo">
-				<h1><a class="navbar-brand" href="{{url("/")}}/trang-chu"><span>LUÔN</span> BÊN BẠN  <img src="images/logo.png" alt=" " /></a></h1>
+				<h1><a class="navbar-brand" href="{{url("/")}}/trang-chu"><span>LUÔN</span> BÊN BẠN  <img src="{{asset('images/logo.png')}}" alt=" " /></a></h1>
 			</div>
 
 		</div>
 		<div class="imgLogin">
 			<a href="{{url("/")}}/dang-nhap" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-				<img src="images/ab.jpg" alt="">Đăng nhập
+				<img src="{{asset('images/ab.jpg')}}" alt="">Đăng nhập
 
 			</a>
 			<ul class="dropdown-menu">
@@ -28,8 +28,6 @@
 			<div class="top-menu">
 				<nav class="menu menu--francisco">
 					<ul class="nav navbar-nav menu__list">
-						<li class="menu__item menu__item--current"><a href="/LuonBenBan_CNPM/trang-chu" class="menu__link"><span class="menu__helper">Trang chủ</span></a></li>
-						<li class="menu__item"><a href="/LuonBenBan_CNPM/tra-cuu" class="menu__link"><span class="menu__helper">Tra cứu</span></a></li>
 						<li class="menu__item menu__item--current"><a href="{{url("/")}}/trang-chu" class="menu__link"><span class="menu__helper">Trang chủ</span></a></li>
 						<li class="menu__item"><a href="{{url("/")}}/tra-cuu" class="menu__link"><span class="menu__helper">Tra cứu</span></a></li>
 						<li class="menu__item"><a href="typography.html" class="menu__link"><span class="menu__helper">Trắc nghiệm</span></a></li>

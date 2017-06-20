@@ -18,7 +18,7 @@
 				<div class="clearfix"></div>
 				<div class="col-md-3 doctor">
 					<a href="#9">
-						<img class="imgLinkToDoctor" src="{{asset('images/hinhBacSi.jpg')}}" width="120px" height="120px">
+						<img class="imgLinkToDoctor imgLinkToDoctor1" src="{{asset('images/hinhBacSi.jpg')}}" width="120px" height="120px">
 						<span class="txtDoctorName">Đỗ Thị Ngọc Lan</span>
 					</a>
 				</div>
@@ -41,7 +41,7 @@
 			<div class="col-md-3 listBenh">
 				<button class="btn lblBenh" disabled="">Bệnh</button></br>
 				<select class="lstBenh" name="lstBenh" size="4">
-					<option value="/CNPM/#1">Viêm âm đạo</option>
+					<option value="#">Viêm âm đạo</option>
 					<option value="#2">Viêm cổ tử cung</option>
 					<option value="#3">Kinh nguyệt không đều</option>
 					<option value="#4">U xơ tử cung</option>
@@ -60,25 +60,22 @@
 			</div>
 		</div>
 
-		<div class="intro2">
-			<h4 class="lblIntro">Giới thiệu chung</h4>
-
-			<p class="areaIntro areaIntro2">
-				Là một trong bốn phân ngành y khoa quan trọng của khối lâm sàng. Khoa có chức năng chẩn đoán và điều trị các bệnh lý và dự phòng sức khỏe của nữ giới, bao gồm phụ nữ còn độc thân và đã mang thai, sinh con.
-				Khoa có thể được phân tách thành Sản khoa và Phụ khoa.</br>
+		<div class="col-md-8 medicinal-w3-left1">
+			<h6 class="lblKhoaName">Khoa sản</h6>
+			<p>
+				Là một bốn phân ngành y khoa quan trọng của khối lâm sàng. Khoa có chức năng chẩn đoán và điều trị các bệnh lý và dự phòng sức khỏe của nữ giới, bao gồm phụ nữa còn độc thân và đã mang thai, sinh con. Khoa có thể được phân tách thành Sản khoa và phụ khoa.
+				
 			</p>
-
-			<p class="areaIntro">
-				Là một trong bốn phân ngành y khoa quan trọng của khối lâm sàng. Khoa có chức năng chẩn đoán và điều trị các bệnh lý và dự phòng sức khỏe của nữ giới, bao gồm phụ nữ còn độc thân và đã mang thai, sinh con.
-				Khoa có thể được phân tách thành Sản khoa và Phụ khoa.</br>
+			<p>
+				Là một bốn phân ngành y khoa quan trọng của khối lâm sàng. Khoa có chức năng chẩn đoán và điều trị các bệnh lý và dự phòng sức khỏe của nữ giới, bao gồm phụ nữa còn độc thân và đã mang thai, sinh con. Khoa có thể được phân tách thành Sản khoa và phụ khoa.
+				
 			</p>
-
-			<p class="areaIntro">
-				Là một trong bốn phân ngành y khoa quan trọng của khối lâm sàng. Khoa có chức năng chẩn đoán và điều trị các bệnh lý và dự phòng sức khỏe của nữ giới, bao gồm phụ nữ còn độc thân và đã mang thai, sinh con.
-				Khoa có thể được phân tách thành Sản khoa và Phụ khoa.</br>
+			<p>
+				Là một bốn phân ngành y khoa quan trọng của khối lâm sàng. Khoa có chức năng chẩn đoán và điều trị các bệnh lý và dự phòng sức khỏe của nữ giới, bao gồm phụ nữa còn độc thân và đã mang thai, sinh con. Khoa có thể được phân tách thành Sản khoa và phụ khoa.
+				
 			</p>
-
 		</div>
+
 		<script type="text/javascript">
 			$(document).ready(function(){
 				$(".lstBenh").on('change',function(){

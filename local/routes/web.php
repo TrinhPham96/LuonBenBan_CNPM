@@ -16,8 +16,8 @@ Route::get('/tra-cuu', 'MyFirstController@getSearch');
 
 Route::get('/danh-sach-khoa', 'MyFirstController@getSpecialList');
 
-
-
 Route::get('/chi-tiet-khoa/{tenKhoa}', 'MyFirstController@getSpecialDetail');
+
 Route::get('/ho-tro','MyFirstController@getHelp');
+
 Route::get('/dang-nhap','MyFirstController@getLogin');

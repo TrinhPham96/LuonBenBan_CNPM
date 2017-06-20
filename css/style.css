@@ -776,6 +776,7 @@ a.hi-icon.icon4:hover {
 }
 .medicinal-w3-grid {
     margin-bottom:3em;
+    margin-left: -50px;
 }
 .medicinal-w3 {
     padding: 0.5em 0 0 0;
@@ -2430,13 +2431,19 @@ float:left;
     .post-details.s-page h2 {
        font-size: 1.5em;
     }
+
+    .page{
+        text-align: center;
+    }
+
     nav.pagination {
+        margin-left: 100px;
         position: absolute;
         bottom: 28%;
         text-align: center;
         width: 100%;
         z-index: 10;
-        left: 15%;
+        margin-left: 100px;
     }
 
     .doctor, .listDoctors a:hover{
@@ -2462,7 +2469,57 @@ float:left;
     }
 
     .imgLinkToDoctor{
+        border-radius: 50px;
+    }
 
+    .imgLinkToDoctor1{
+        margin-left: 30px;
+    }
+
+
+    .lblPre{
+        float: left;
+    }
+
+    .line{
+        border: solid rgb(195, 195, 195) 0.1px;
+        height: 111px;
+        float: right;
+        margin-top: 15px;        
+    }
+
+    .listBenh, .lstBenh, .listMedicine, .lstMedicine{
+        margin-top: 10px;
+    }
+
+    .listMedicine, .listBenh, .listDoctors{
+        display: block;
+    }
+
+    .lstMedicine{
+        margin-left: 90px;
+
+    }
+
+    .lstBenh{
+        margin-left: 60px;
+    }
+
+    .lblListDoctors {
+        margin-left: 250px;
+    }
+
+    .lblPre, .lblNext {
+        margin-top: 100px;
+    }
+
+    .intro2{
+        float: left;
+    }
+
+    .lblKhoaName{
+        color: rgb(46, 66, 252);
+        margin-top: 20px;
     }
 
     .nav-tabs>li>a {
