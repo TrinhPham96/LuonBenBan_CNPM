@@ -15,6 +15,7 @@ class MyFirstController extends Controller
     public function getSearch(){
     	return view('pages.search');
     }
+<<<<<<< HEAD
 
     public function getSpecialList(){
     	return view('pages.specialList');
@@ -24,4 +25,12 @@ class MyFirstController extends Controller
     	$data['tenKhoa'] = $tenKhoa;
     	return view('pages.specialDetail', $data);
     }
+=======
+    public function getHelp(){
+    	return view('pages.help');
+    }
+   public function getLogin(){
+   	return view('pages.login');
+   }
+>>>>>>> refs/remotes/origin/master
 }
