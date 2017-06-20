@@ -15,16 +15,22 @@
 						
 					</div>
 					<div class="imgLogin">
-						<a href="{{url("/")}}/dang-nhap" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-							<img src="images/ab.jpg" alt="">Đăng nhập
-							
-						</a>
+						
+						@if(Session::has('nguoi_dung'))
+						<a href="{{url("/")}}/trang-chu" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+						Xin chào ! {{Session::get('nguoi_dung')}}<img src="images/ab.jpg" alt="" hr></a>
 						<ul class="dropdown-menu">
 							<li><a href="javascript:;"><i class="icon-edit"></i> Thông tin cá nhân</a></li>
-							<li><a href="login.html"><i class="fa fa-sign-out"></i> Đăng xuất</a></li>
+							<li><a href="{{url("/")}}/trang-chu""><i class="fa fa-sign-out"></i> Đăng xuất</a></li>
 						</ul>
+						@else
+						<a href="{{url("/")}}/dang-nhap" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+						<img src="images/ab.jpg" alt="">Đăng nhập
+						</a>
+						@endif
+						
 					</div>
-					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+					<div lass="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
 						<div class="top-menu">
 							<nav class="menu menu--francisco">
 								<ul class="nav navbar-nav menu__list">

@@ -17,7 +17,5 @@ class MyFirstController extends Controller
     public function getHelp(){
     	return view('pages.help');
     }
-   public function getLogin(){
-   	return view('pages.login');
-   }
+   
 }

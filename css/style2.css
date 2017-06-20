@@ -99,7 +99,7 @@ img {
 .log .content1 h2 {
 	font-size:40px;
 	padding: 30px 0 0;
-	color:#fff;
+	color:#23b5b9;
 	font-weight: 300;
 	font-family: 'Nunito', sans-serif;
 	text-align:center;
@@ -107,7 +107,7 @@ img {
 .log .content2 h2 {
 	font-size:40px;
 	padding: 30px 0 0;
-	color:#fff;
+	color:#23b5b9;
 	font-weight: 300;
 	font-family: 'Nunito', sans-serif;
 	text-align:center;
@@ -119,7 +119,7 @@ img {
 .content1 {
 	width: 42%;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.21);
+    background-color: rgba(0, 0, 0, 0.13);
     padding: 30px 0;
     float: left;
     border-radius: 0px;
@@ -128,7 +128,7 @@ img {
 	padding:10px 40px 10px 10px;
 	width:70%;
 	border:1px solid #fff;
-	color:#fff;
+	color:black;
 	text-align:left;
 	outline:none;
 	font-size:18px;
@@ -143,7 +143,7 @@ img {
 	padding:10px 40px 10px 10px;
 	width:70%;
 	border:1px solid #fff;
-	color:#fff;
+	color:black;
 	text-align:left;
 	outline:none;
 	font-size:18px;
@@ -178,7 +178,7 @@ img {
 	-o-transition: all 0.5s ease-in-out;
 }
 .sign-in:hover {
-	background-color:#376D29;
+	background-color:#294f6d;
 	color:#fff;
 }
 .reset {
@@ -208,7 +208,7 @@ img {
 .content2 {
 	width:42%;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.21);
+    background-color: rgba(0, 0, 0, 0.13);
     float:right;
 	padding: 30px 0 70px;
     border-radius: 0px;
@@ -217,7 +217,7 @@ img {
 	padding:10px 40px 10px 10px;
 	width:70%;
 	border:1px solid white;
-	color:#fff; 
+	color:black; 
 	text-align:left;
 	outline:none;
 	font-size:18px;
@@ -231,7 +231,7 @@ img {
 	padding:10px 40px 10px 10px;
 	width:70%;
 	border:1px solid white;
-	color:#fff; 
+	color:black; 
 	text-align:left;
 	outline:none;
 	font-size:18px;
@@ -245,7 +245,7 @@ img {
 	padding:10px 40px 10px 10px;
 	width:70%;
 	border:1px solid white;
-	color:#fff; 
+	color:black; 
 	text-align:left;
 	outline:none;
 	font-size:18px;
@@ -258,7 +258,7 @@ img {
 	padding:10px 40px 10px 10px;
 	width:70%;
 	border:1px solid white;
-	color:#fff;
+	color:black;
 	text-align:left;
 	outline:none;
 	font-size:18px;
@@ -287,7 +287,7 @@ img {
 	-o-transition: all 0.5s ease-in-out;
 }
 .register:hover {
-	background-color:#376D29;
+	background-color:#294f6d;
 	color:white;
 }
 .footer {

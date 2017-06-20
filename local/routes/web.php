@@ -13,4 +13,7 @@
 Route::get('/trang-chu', 'MyFirstController@getIndex');
 Route::get('/tra-cuu', 'MyFirstController@getSearch');
 Route::get('/ho-tro','MyFirstController@getHelp');
-Route::get('/dang-nhap','MyFirstController@getLogin');
+Route::get('/dang-nhap','admin\LoginController@getLogin');
+Route::post('/dang-nhap','admin\LoginController@postLogin');
+Route::post('/dang-ki','admin\LoginController@postRegister');
+Route::get('/trang-chu','admin\LoginController@getLogout');
