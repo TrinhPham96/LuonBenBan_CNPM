@@ -60,36 +60,36 @@
 			</div>
 		</div>
 
-	<div class="intro2">
-		<h4 class="lblIntro">Giới thiệu chung</h4>
+		<div class="intro2">
+			<h4 class="lblIntro">Giới thiệu chung</h4>
 
-		<p class="areaIntro areaIntro2">
-			Là một trong bốn phân ngành y khoa quan trọng của khối lâm sàng. Khoa có chức năng chẩn đoán và điều trị các bệnh lý và dự phòng sức khỏe của nữ giới, bao gồm phụ nữ còn độc thân và đã mang thai, sinh con.
-			Khoa có thể được phân tách thành Sản khoa và Phụ khoa.</br>
-		</p>
+			<p class="areaIntro areaIntro2">
+				Là một trong bốn phân ngành y khoa quan trọng của khối lâm sàng. Khoa có chức năng chẩn đoán và điều trị các bệnh lý và dự phòng sức khỏe của nữ giới, bao gồm phụ nữ còn độc thân và đã mang thai, sinh con.
+				Khoa có thể được phân tách thành Sản khoa và Phụ khoa.</br>
+			</p>
 
-		<p class="areaIntro">
-			Là một trong bốn phân ngành y khoa quan trọng của khối lâm sàng. Khoa có chức năng chẩn đoán và điều trị các bệnh lý và dự phòng sức khỏe của nữ giới, bao gồm phụ nữ còn độc thân và đã mang thai, sinh con.
-			Khoa có thể được phân tách thành Sản khoa và Phụ khoa.</br>
-		</p>
+			<p class="areaIntro">
+				Là một trong bốn phân ngành y khoa quan trọng của khối lâm sàng. Khoa có chức năng chẩn đoán và điều trị các bệnh lý và dự phòng sức khỏe của nữ giới, bao gồm phụ nữ còn độc thân và đã mang thai, sinh con.
+				Khoa có thể được phân tách thành Sản khoa và Phụ khoa.</br>
+			</p>
 
-		<p class="areaIntro">
-			Là một trong bốn phân ngành y khoa quan trọng của khối lâm sàng. Khoa có chức năng chẩn đoán và điều trị các bệnh lý và dự phòng sức khỏe của nữ giới, bao gồm phụ nữ còn độc thân và đã mang thai, sinh con.
-			Khoa có thể được phân tách thành Sản khoa và Phụ khoa.</br>
-		</p>
+			<p class="areaIntro">
+				Là một trong bốn phân ngành y khoa quan trọng của khối lâm sàng. Khoa có chức năng chẩn đoán và điều trị các bệnh lý và dự phòng sức khỏe của nữ giới, bao gồm phụ nữ còn độc thân và đã mang thai, sinh con.
+				Khoa có thể được phân tách thành Sản khoa và Phụ khoa.</br>
+			</p>
 
+		</div>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(".lstBenh").on('change',function(){
+					window.location = $(this).val();
+				});
+			})
+
+			$(document).ready(function(){
+				$(".lstMedicine").on('change',function(){
+					window.location = $(this).val();
+				});
+			})
+		</script>
 	</div>
-	<script type="text/javascript">
-	$(document).ready(function(){
-		$(".lstBenh").on('change',function(){
-			window.location = $(this).val();
-		});
-	})
-
-	$(document).ready(function(){
-		$(".lstMedicine").on('change',function(){
-			window.location = $(this).val();
-		});
-	})
-</script>
-</div>
