@@ -7,11 +7,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link href="{{asset('css/bootstrap.css') }}" rel='stylesheet' type='text/css' />
 <!-- Custom Theme files -->
-<link rel="stylesheet" href="css/slider.css">
+<link rel="stylesheet" href="{{asset('css/slider.css') }}">
 <link rel ="stylesheet" href="{{asset('css/style.css') }}">
-<script src="js/jquery-1.11.1.min.js"></script>
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
+<script src="{{asset('js/jquery-1.11.1.min.js') }}"></script>
+<script type="text/javascript" src="{{asset('js/move-top.js') }}"></script>
+<script type="text/javascript" src="{{asset('js/chatbox.min.js') }}"></script>
+<script type="text/javascript" src="{{asset('js/easing.js') }}"></script>
 <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <!--/web-font-->

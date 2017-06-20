@@ -10,15 +10,26 @@
 						<span class="icon-bar"></span>
 					  </button>
 						<div class="logo">
+<<<<<<< HEAD
 							<h1><a class="navbar-brand" href="{{url("/")}}/trang-chu"><span>LUÔN</span> BÊN BẠN  <img src="images/logo.png" alt=" " /></a></h1>
+=======
+							<h1><a class="navbar-brand" href="index.html"><span>LUÔN</span> BÊN BẠN  <img src="{{ asset('images/logo.png') }}" alt=" " /></a></h1>
+>>>>>>> My
 						</div>
 						
 					</div>
 					<div class="imgLogin">
+<<<<<<< HEAD
 						
 						@if(Session::has('nguoi_dung'))
 						<a href="{{url("/")}}/trang-chu" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
 						Xin chào ! {{Session::get('nguoi_dung')}}<img src="images/ab.jpg" alt="" hr></a>
+=======
+						<a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+							<img src="{{ asset('images/ab.jpg') }}" alt=""> Chinh 18+
+							<i class="fa fa-sort-desc" aria-hidden="true"></i>
+						</a>
+>>>>>>> My
 						<ul class="dropdown-menu">
 							<li><a href="javascript:;"><i class="icon-edit"></i> Thông tin cá nhân</a></li>
 							<li><a href="{{url("/")}}/trang-chu""><i class="fa fa-sign-out"></i> Đăng xuất</a></li>
