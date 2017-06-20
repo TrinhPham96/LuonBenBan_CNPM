@@ -727,7 +727,7 @@ a.navbar-brand img {
     font-size: 0.9em;
     color: #E0DFDF;
 }
-.medicinal-w3-grids h4 ,.search_content-grids h4{
+.medicinal-w3-grids h4{
     font-weight: 600;
     color: #e45753;
     font-size: 1.2em;
@@ -750,15 +750,15 @@ a.hi-icon.icon2 {
 a.hi-icon.icon3 {
        background: url(../images/3.png) no-repeat 25px 30px #23b5b9;
     display: block;
-    width:120px;
-    height:120px;
+    width:130px;
+    height:130px;
     margin: 15px auto;
 }
 a.hi-icon.icon4 {
        background: url(../images/4.png) no-repeat 25px 30px #23b5b9;
     display: block;
-    width:120px;
-    height:120px;
+    width:130px;
+    height:130px;
     margin: 0 auto;
 }
 a.hi-icon.icon1:hover {
@@ -783,9 +783,7 @@ a.hi-icon.icon4:hover {
 .medicinal-w3-grids {
     margin-top: 4em;
 }
-.search_content-grids{
-     margin-top: 1em;
-}
+
 .testimonials p.speech{
     padding:40px 40px;
     margin: 20px;
@@ -1153,7 +1151,7 @@ p.sub-para {
 .prom-bottom {
     background: #e45753;
     color:#fff;
-    font-weight:600;
+    font-weight:500px;
 }
 .prom-left {
     float: left;
@@ -1300,7 +1298,7 @@ ul.times i{
     padding-top: 7.8em;
 }
 .main-textgrids {
-        padding: 5em 0 5em 0;
+        padding: 3em 0 5em 0;
 }
 .ab-pic {
     margin-top: 2.3%;
@@ -1310,7 +1308,7 @@ ul.times i{
     line-height: 1.9em;
     margin-bottom: 4%;
     margin-top: 3%;
-    font-size: 0.9em;
+    font-size: 1.4em;
     color: #777;
 }
 ul.ab li {
@@ -2275,7 +2273,7 @@ float:left;
     .story_desc h3 {
       font-size: 1em;
     }
-    .medicinal-w3 ,.search_content{
+    .medicinal-w3 {
         padding: 5em 0 0 0;
         min-height: 700px;
 
@@ -2330,7 +2328,7 @@ float:left;
        font-size: 2.5em;
     }
    
-    .medicinal-w3-grids ,.search_content-grids{
+    .medicinal-w3-grids {
         margin-top:1em;
         margin-bottom: 60px;
     }
@@ -2567,7 +2565,7 @@ float:left;
     .main-textgrids img {
         width: 65%;
     }
-    .medicinal-w3 ,.search_content{
+    .medicinal-w3 {
         padding: 4em 0 3em 0;
         min-height: 631px;
     }
@@ -4134,8 +4132,10 @@ body
 .search_content{
          background: #f4f4f4;
     }
+
 .search_content{
      padding: 3em 0 0 0;
+<<<<<<< HEAD
     height: 580px;
 }
 
@@ -4263,3 +4263,48 @@ form button i{
     min-height: 700px;
     box-sizing: border-box;
 }
+=======
+    height: 600px;
+}
+.search_content-grids h4{
+    font-weight: 600;
+    color: #e45753;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.search_content-grids{
+     margin-top: 2em;
+}
+.search_content{
+        padding: 1em 0 0 0;
+        min-height: 400px;
+    }
+.imgSickness,.imgSpeciality{
+    margin-left: 140px;
+}   
+.imgMedicine,.imgBlog{
+    margin-right: 140px;
+ }
+ .CommonQuestion  h3.tittle span {
+    color: #23B5B9;
+    font-weight: 700;
+    font-family: 'Montserrat',sans-serif!important;
+}
+.CommonQuestion {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 3em;
+}
+ .listSearch  h3.tittle span {
+    color: #23B5B9;
+    font-weight: 700;
+    font-family: 'Montserrat',sans-serif!important;
+}
+.listSearch {
+    margin: 0 auto;
+    text-align: center;
+   
+}
+/*login
+>>>>>>> beo

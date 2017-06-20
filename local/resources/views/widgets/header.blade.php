@@ -10,14 +10,24 @@
 						<span class="icon-bar"></span>
 					  </button>
 						<div class="logo">
+<<<<<<< HEAD
 							<h1><a class="navbar-brand" href="index.html"><span>LUÔN</span> BÊN BẠN  <img src="{{ asset('images/logo.png') }}" alt=" " /></a></h1>
+=======
+							<h1><a class="navbar-brand" href="{{url("/")}}/trang-chu"><span>LUÔN</span> BÊN BẠN  <img src="images/logo.png" alt=" " /></a></h1>
+>>>>>>> beo
 						</div>
 						
 					</div>
 					<div class="imgLogin">
+<<<<<<< HEAD
 						<a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
 							<img src="{{ asset('images/ab.jpg') }}" alt=""> Chinh 18+
 							<i class="fa fa-sort-desc" aria-hidden="true"></i>
+=======
+						<a href="{{url("/")}}/dang-nhap" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+							<img src="images/ab.jpg" alt="">Đăng nhập
+							
+>>>>>>> beo
 						</a>
 						<ul class="dropdown-menu">
 							<li><a href="javascript:;"><i class="icon-edit"></i> Thông tin cá nhân</a></li>
@@ -28,10 +38,10 @@
 						<div class="top-menu">
 							<nav class="menu menu--francisco">
 								<ul class="nav navbar-nav menu__list">
-									<li class="menu__item menu__item--current"><a href="index.html" class="menu__link"><span class="menu__helper">Trang chủ</span></a></li>
-									<li class="menu__item"><a href="about.html" class="menu__link"><span class="menu__helper">Tra cứu</span></a></li>
+									<li class="menu__item menu__item--current"><a href="{{url("/")}}/trang-chu" class="menu__link"><span class="menu__helper">Trang chủ</span></a></li>
+									<li class="menu__item"><a href="{{url("/")}}/tra-cuu" class="menu__link"><span class="menu__helper">Tra cứu</span></a></li>
 									<li class="menu__item"><a href="typography.html" class="menu__link"><span class="menu__helper">Trắc nghiệm</span></a></li>
-									<li class="menu__item"><a href="gallery.html" class="menu__link"><span class="menu__helper">Hỗ trợ</span></a></li>
+									<li class="menu__item"><a href="{{url("/")}}/ho-tro" class="menu__link"><span class="menu__helper">Hỗ trợ</span></a></li>
 									<li class="menu__item"><a href="contact.html" class="menu__link"><span class="menu__helper">Thông tin</span></a></li>
 									<li class ="menu__item"> 
 										<div id="custom-search-input">

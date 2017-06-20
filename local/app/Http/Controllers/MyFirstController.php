@@ -15,6 +15,7 @@ class MyFirstController extends Controller
     public function getListDoctor(){
     	return view('pages.listDoctor');
     }
+<<<<<<< HEAD
     public function getDetailsDoctor(){
     	return view ('pages.detailsDoctor');
 
@@ -27,4 +28,12 @@ class MyFirstController extends Controller
     }
     
 
+=======
+    public function getHelp(){
+    	return view('pages.help');
+    }
+   public function getLogin(){
+   	return view('pages.login');
+   }
+>>>>>>> beo
 }
