@@ -15,3 +15,9 @@ Route::get('/trang-chu', 'MyFirstController@getIndex');
 Route::get('/tra-cuu', 'MyFirstController@getSearch');
 
 Route::get('/danh-sach-khoa', 'MyFirstController@getSpecialList');
+
+// Route::group(['prefix' => '/chi-tiet-khoa'], function){
+
+// }
+
+Route::get('/chi-tiet-khoa/{tenKhoa}', 'MyFirstController@getSpecialDetail');

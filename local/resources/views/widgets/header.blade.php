@@ -10,13 +10,13 @@
 						<span class="icon-bar"></span>
 					  </button>
 						<div class="logo">
-							<h1><a class="navbar-brand" href="/LuonBenBan_CNPM/trang-chu"><span>LUÔN</span> BÊN BẠN  <img src="images/logo.png" alt=" " /></a></h1>
+							<h1><a class="navbar-brand" href="/LuonBenBan_CNPM/trang-chu"><span>LUÔN</span> BÊN BẠN  <img src="{{asset('images/logo.png')}}" alt=" " /></a></h1>
 						</div>
 						
 					</div>
 					<div class="imgLogin">
 						<a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-							<img src="images/ab.jpg" alt="">Mỹ Trinh
+							<img src="{{asset('imagesimages/ab.jpg')}}" alt="">Mỹ Trinh
 							<i class="fa fa-sort-desc" aria-hidden="true"></i>
 						</a>
 						<ul class="dropdown-menu">

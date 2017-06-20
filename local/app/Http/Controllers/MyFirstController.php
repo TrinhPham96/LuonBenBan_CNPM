@@ -19,4 +19,9 @@ class MyFirstController extends Controller
     public function getSpecialList(){
     	return view('pages.specialList');
     }
+
+    public function getSpecialDetail($tenKhoa){
+    	$data['tenKhoa'] = $tenKhoa;
+    	return view('pages.specialDetail', $data);
+    }
 }

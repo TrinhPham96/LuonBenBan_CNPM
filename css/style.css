@@ -2438,7 +2438,33 @@ float:left;
         text-align: center;
         width: 100%;
         z-index: 10;
-        left: 1.5%;
+        left: 15%;
+    }
+
+    .doctor, .listDoctors a:hover{
+        text-decoration: none;
+
+    }
+
+    .listDoctors{
+        margin-top: 10px;
+        float: left;
+    }
+
+    .doctor{
+        display: inline-block;
+        margin-top: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+
+    .txtDoctorName{
+        float: left;
+        margin-left: 10px;
+    }
+
+    .imgLinkToDoctor{
+
     }
 
     .nav-tabs>li>a {
