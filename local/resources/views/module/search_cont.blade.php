@@ -1,6 +1,8 @@
 <!-- Services -->
 <div class="search_content" >
-
+	<div class="CommonQuestion">
+	<h3 class="tittle"> <span> Danh mục tra cứu</span></h3>
+	</div>
 	<div class="sub-hd">
 		
 		<div class="search_content-grids">
