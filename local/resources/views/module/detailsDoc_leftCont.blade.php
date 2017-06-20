@@ -60,6 +60,67 @@
 							<i class="fa fa-square " aria-hidden="true"></i> Còn trống
 						</div>
 					</div>
+					<div class="tableDL">
+						<table class="table table-bordered" >
+							<tr>
+								<th> Thứ Hai </th>
+								<th> Thứ Ba </th>
+								<th> Thứ Tư </th>
+								<th> Thứ Năm </th>
+								<th> Thứ Sáu </th>
+								<th> Thứ Bảy </th>	
+							</tr>
+							<tr>	
+									<td><a href="chi-tiet-bac-si/xac-nhan-dat-kham">8h00</a></td>
+									<td><a href="chi-tiet-bac-si/xac-nhan-dat-kham">8h00</a></td>
+									<td><a href="chi-tiet-bac-si/xac-nhan-dat-kham">8h00</a></td>
+									<td><a href="chi-tiet-bac-si/xac-nhan-dat-kham">8h00</a></td>
+									<td><a href="chi-tiet-bac-si/xac-nhan-dat-kham">8h00</a></td>
+									<td><a href="chi-tiet-bac-si/xac-nhan-dat-kham">8h00</a></td>
+
+							</tr>
+							<tr>	
+									<td><a href="chi-tiet-bac-si/xac-nhan-dat-kham">9h00</a></td>
+									<td><a href="chi-tiet-bac-si/xac-nhan-dat-kham">9h00</a></td>
+									<td><a href="chi-tiet-bac-si/xac-nhan-dat-kham">9h00</a></td>
+									<td><a href="chi-tiet-bac-si/xac-nhan-dat-kham">9h00</a></td>
+									<td><a href="chi-tiet-bac-si/xac-nhan-dat-kham">9h00</a></td>
+									<td><a href="chi-tiet-bac-si/xac-nhan-dat-kham">9h00</a></td>
+
+							</tr>
+							<tr>	
+									<td><a href="chi-tiet-bac-si/xac-nhan-dat-kham">10h00</a></td>
+									<td><a href="chi-tiet-bac-si/xac-nhan-dat-kham">10h00</a></td>
+									<td><a href="chi-tiet-bac-si/xac-nhan-dat-kham">10h00</a></td>
+									<td><a href="chi-tiet-bac-si/xac-nhan-dat-kham">10h00</a></td>
+									<td><a href="chi-tiet-bac-si/xac-nhan-dat-kham">10h00</a></td>
+									<td><a href="chi-tiet-bac-si/xac-nhan-dat-kham">10h00</a></td>
+
+							</tr>
+							<tr>	
+									<td><a href="chi-tiet-bac-si/xac-nhan-dat-kham">14h00</a></td>
+									<td><a href="chi-tiet-bac-si/xac-nhan-dat-kham">14h00</a></td>
+									<td><a href="chi-tiet-bac-si/xac-nhan-dat-kham">14h00</a></td>
+									<td><a href="chi-tiet-bac-si/xac-nhan-dat-kham">14h00</a></td>
+									<td><a href="chi-tiet-bac-si/xac-nhan-dat-kham">14h00</a></td>
+									<td><a href="chi-tiet-bac-si/xac-nhan-dat-kham">14h00</a></td>
+
+							</tr>
+							<tr>	
+									<td><a href="chi-tiet-bac-si/xac-nhan-dat-kham">15h00</a></td>
+									<td><a href="chi-tiet-bac-si/xac-nhan-dat-kham">15h00</a></td>
+									<td><a href="chi-tiet-bac-si/xac-nhan-dat-kham">15h00</a></td>
+									<td><a href="chi-tiet-bac-si/xac-nhan-dat-kham">15h00</a></td>
+									<td><a href="chi-tiet-bac-si/xac-nhan-dat-kham">15h00</a></td>
+									<td><a href="chi-tiet-bac-si/xac-nhan-dat-kham">15h00</a></td>
+
+							</tr>
+
+
+
+						</table>
+
+					</div>
 					
 				</div>
 			</div>
@@ -69,4 +130,6 @@
 <!-- JavaScripts -->
 <script type="text/javascript" src="js/chatbox.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+  </script>
 

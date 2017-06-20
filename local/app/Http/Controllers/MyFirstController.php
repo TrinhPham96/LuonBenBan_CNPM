@@ -18,8 +18,13 @@ class MyFirstController extends Controller
     public function getDetailsDoctor(){
     	return view ('pages.detailsDoctor');
 
-    // public function getSearch(){
-    // 	return view('pages.search');
 
     }
+      public function getConfirmRequest(){
+        return view ('pages.confirmRequest');
+
+
+    }
+    
+
 }

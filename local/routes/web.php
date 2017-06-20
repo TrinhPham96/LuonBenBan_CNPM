@@ -17,6 +17,8 @@ Route::get('danh-sach-bac-si','MyFirstController@getListDoctor');
 
 Route::get('chi-tiet-bac-si','MyFirstController@getDetailsDoctor');
 
+Route::get('chi-tiet-bac-si/xac-nhan-dat-kham','MyFirstController@getConfirmRequest');
+
 // Route::get('/trang-chu', 'MyFirstController@getIndex');
 // Route::get('/tra-cuu', 'MyFirstController@getSearch');
 // >>>>>>> master

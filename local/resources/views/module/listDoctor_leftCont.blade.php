@@ -34,7 +34,7 @@
 					<img src="{{ asset('images/tuan2.png') }}" >
 				</div>
 				<div class = "info_doctor">
-					<h3>Bác sĩ : Đỗ Hữu Thảnh</h3>
+					<a href="chi-tiet-bac-si"><h3>Bác sĩ : Đỗ Hữu Thảnh</h3></a>
 					<div class = "noname">
 						<img src ="{{ asset('images/mu-cu-nhan.png') }}" width="30px" height="20px">
 						<p>  Cử nhân </p>
@@ -53,7 +53,7 @@
 					<img src="{{ asset('images/tuan2.png') }}" >
 				</div>
 				<div class = "info_doctor">
-					<h3>Bác sĩ : Đỗ Hữu Thảnh</h3>
+						<a href="chi-tiet-bac-si"><h3>Bác sĩ : Đỗ Hữu Thảnh</h3></a>
 					<div class = "noname">
 						<img src ="{{ asset('images/mu-cu-nhan.png') }}" width="30px" height="20px">
 						<p>  Cử nhân </p>
@@ -72,7 +72,26 @@
 					<img src="{{ asset('images/tuan2.png') }}" >
 				</div>
 				<div class = "info_doctor">
-					<h3>Bác sĩ : Đỗ Hữu Thảnh</h3>
+					<a href="chi-tiet-bac-si"><h3>Bác sĩ : Đỗ Hữu Thảnh</h3></a>
+					<div class = "noname">
+						<img src ="{{ asset('images/mu-cu-nhan.png') }}" width="30px" height="20px">
+						<p>  Cử nhân </p>
+					</div>
+					<div class = "noname">		s
+						<img src ="{{ asset('images/tai-kham.png') }}" width="30px" height="20px">
+						<p>  Nội cơ xương khớp, Nội thần kinh, Nội tiêu hóa - Gan mật, Nội tim mạch</p>
+					</div>
+				</div>
+				<div class = "chitiet_bacsi">
+					<p>Bác sĩ Thảnh là người đã tìm ra phương pháp tạo màng ngăn chữa chứng "Nhiệt miệng" từ năm 1990, đến nay đã qua 20 năm kiểm chứng từ thực tiễn là có kết quả điều.... <a href="#">Xem thêm >></a></p>
+				</div>
+			</div>
+				<div class ="doctor">
+				<div class = "img_doctor">
+					<img src="{{ asset('images/tuan2.png') }}" >
+				</div>
+				<div class = "info_doctor">
+						<a href=""><h3>Bác sĩ : Đỗ Hữu Thảnh</h3></a>
 					<div class = "noname">
 						<img src ="{{ asset('images/mu-cu-nhan.png') }}" width="30px" height="20px">
 						<p>  Cử nhân </p>
@@ -91,7 +110,7 @@
 					<img src="{{ asset('images/tuan2.png') }}" >
 				</div>
 				<div class = "info_doctor">
-					<h3>Bác sĩ : Đỗ Hữu Thảnh</h3>
+						<a href=""><h3>Bác sĩ : Đỗ Hữu Thảnh</h3></a>
 					<div class = "noname">
 						<img src ="{{ asset('images/mu-cu-nhan.png') }}" width="30px" height="20px">
 						<p>  Cử nhân </p>
@@ -109,27 +128,7 @@
 				<div class = "img_doctor">
 					<img src="{{ asset('images/tuan2.png') }}" >
 				</div>
-				<div class = "info_doctor">
-					<h3>Bác sĩ : Đỗ Hữu Thảnh</h3>
-					<div class = "noname">
-						<img src ="{{ asset('images/mu-cu-nhan.png') }}" width="30px" height="20px">
-						<p>  Cử nhân </p>
-					</div>
-					<div class = "noname">
-						<img src ="{{ asset('images/tai-kham.png') }}" width="30px" height="20px">
-						<p>  Nội cơ xương khớp, Nội thần kinh, Nội tiêu hóa - Gan mật, Nội tim mạch</p>
-					</div>
-				</div>
-				<div class = "chitiet_bacsi">
-					<p>Bác sĩ Thảnh là người đã tìm ra phương pháp tạo màng ngăn chữa chứng "Nhiệt miệng" từ năm 1990, đến nay đã qua 20 năm kiểm chứng từ thực tiễn là có kết quả điều.... <a href="#">Xem thêm >></a></p>
-				</div>
-			</div>
-				<div class ="doctor">
-				<div class = "img_doctor">
-					<img src="{{ asset('images/tuan2.png') }}" >
-				</div>
-				<div class = "info_doctor">
-					<h3>Bác sĩ : Đỗ Hữu Thảnh</h3>
+				<div class = "info_doctor">	<a href=""><h3>Bác sĩ : Đỗ Hữu Thảnh</h3></a>
 					<div class = "noname">
 						<img src ="{{ asset('images/mu-cu-nhan.png') }}" width="30px" height="20px">
 						<p>  Cử nhân </p>
