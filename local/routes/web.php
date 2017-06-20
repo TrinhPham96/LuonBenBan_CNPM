@@ -10,13 +10,13 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-<<<<<<< HEAD
+
 Route::get('trang-chu', 'MyFirstController@getIndex');
 
 Route::get('danh-sach-bac-si','MyFirstController@getListDoctor');
 
 Route::get('chi-tiet-bac-si','MyFirstController@getDetailsDoctor');
-=======
-Route::get('/trang-chu', 'MyFirstController@getIndex');
-Route::get('/tra-cuu', 'MyFirstController@getSearch');
->>>>>>> master
+
+// Route::get('/trang-chu', 'MyFirstController@getIndex');
+// Route::get('/tra-cuu', 'MyFirstController@getSearch');
+// >>>>>>> master
