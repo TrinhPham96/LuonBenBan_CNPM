@@ -15,12 +15,11 @@ class MyFirstController extends Controller
     public function getListDoctor(){
     	return view('pages.listDoctor');
     }
-<<<<<<< HEAD
+
     public function getHelp(){
     	return view('pages.help');
     }
-   
-=======
+
     public function getDetailsDoctor(){
     	return view ('pages.detailsDoctor');
 
@@ -31,7 +30,13 @@ class MyFirstController extends Controller
 
 
     }
+    public function getSearch(){
+        return view('pages.search');
+    }
+    public function getSick(){
+
+        return view('pages.sick');
+    }
     
 
->>>>>>> My
 }

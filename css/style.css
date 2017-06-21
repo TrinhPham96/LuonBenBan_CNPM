@@ -53,6 +53,7 @@ img {
     -moz-osx-font-smoothing: grayscale;
 }
 .dropdown-menu {
+
     margin-top: -80px;
     margin-left: 1080px;
     float: right;
@@ -3556,8 +3557,58 @@ float:left;
         border-top: none !important;
         padding: 0 5px!important;
     }
-<<<<<<< HEAD
+
 }
+.search_content{
+         background: #f4f4f4;
+    }
+
+.search_content{
+     padding: 3em 0 0 0;
+    height: 600px;
+}
+.search_content-grids h4{
+    font-weight: 600;
+    color: #e45753;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.search_content-grids{
+     margin-top: 2em;
+}
+.search_content{
+        padding: 1em 0 0 0;
+        min-height: 400px;
+    }
+.imgSickness,.imgSpeciality{
+    margin-left: 140px;
+}   
+.imgMedicine,.imgBlog{
+    margin-right: 140px;
+ }
+ .CommonQuestion  h3.tittle span {
+    color: #23B5B9;
+    font-weight: 700;
+    font-family: 'Montserrat',sans-serif!important;
+}
+.CommonQuestion {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 3em;
+}
+ .listSearch  h3.tittle span {
+    color: #23B5B9;
+    font-weight: 700;
+    font-family: 'Montserrat',sans-serif!important;
+}
+.listSearch {
+    margin: 0 auto;
+    text-align: center;
+   
+}
+/*login
+
 /*CSS trang listDoctor*/
 .content{
     width: 100%;
@@ -3656,7 +3707,7 @@ float:left;
     height: 30px;
     
 }
-.ten_CK {
+.ten_CK,.linkToNameSpec {
     float: left;
     width: 150px;
     padding-left: 20px;
@@ -4135,7 +4186,7 @@ body
 
 .search_content{
      padding: 3em 0 0 0;
-<<<<<<< HEAD
+
     height: 600px;
 }
 .search_content-grids h4{
@@ -4307,4 +4358,13 @@ form button i{
     min-height: 700px;
     box-sizing: border-box;
 }
->>>>>>> My
+
+/*css bệnh*/
+.SickSpeciality{
+       padding-top: 10px;
+    margin-top: 5px;
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid #C0C0C0;
+
+}
