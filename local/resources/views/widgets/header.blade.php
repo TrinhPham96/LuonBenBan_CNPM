@@ -28,11 +28,21 @@
 			<div class="top-menu">
 				<nav class="menu menu--francisco">
 					<ul class="nav navbar-nav menu__list">
-						<li class="menu__item menu__item--current"><a href="{{url("/")}}/trang-chu" class="menu__link"><span class="menu__helper">Trang chủ</span></a></li>
-						<li class="menu__item"><a href="{{url("/")}}/tra-cuu" class="menu__link"><span class="menu__helper">Tra cứu</span></a></li>
-						<li class="menu__item"><a href="typography.html" class="menu__link"><span class="menu__helper">Trắc nghiệm</span></a></li>
-						<li class="menu__item"><a href="{{url("/")}}/ho-tro" class="menu__link"><span class="menu__helper">Hỗ trợ</span></a></li>
-						<li class="menu__item"><a href="contact.html" class="menu__link"><span class="menu__helper">Thông tin</span></a></li>
+						<li class="menu__item menu__item--current">
+							<a href="{{url("/")}}/trang-chu" class="menu__link"><span class="menu__helper">Trang chủ</span></a>
+						</li>
+						<li class="menu__item">
+							<a href="{{url("/")}}/tra-cuu" class="menu__link"><span class="menu__helper">Tra cứu</span></a>
+						</li>
+						<li class="menu__item">
+							<a href="{{url('/trac-nghiem')}}" class="menu__link"><span class="menu__helper">Trắc nghiệm</span></a>
+						</li>
+						<li class="menu__item">
+							<a href="{{url("/")}}/ho-tro" class="menu__link"><span class="menu__helper">Hỗ trợ</span></a>
+						</li>
+						<li class="menu__item">
+							<a href="{{url('/thong-tin')}}" class="menu__link"><span class="menu__helper">Thông tin</span></a>
+						</li>
 						<li class ="menu__item"> 
 							<div id="custom-search-input">
 

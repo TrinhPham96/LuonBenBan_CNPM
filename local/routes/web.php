@@ -21,3 +21,11 @@ Route::get('/chi-tiet-khoa/{tenKhoa}', 'MyFirstController@getSpecialDetail');
 Route::get('/ho-tro','MyFirstController@getHelp');
 
 Route::get('/dang-nhap','MyFirstController@getLogin');
+
+Route::get('/trac-nghiem','MyFirstController@getQuiz');
+
+Route::get('/thong-tin','MyFirstController@getContact');
+
+Route::group(['prefix' => 'insertDataIntoTable'], function(){
+	Route::get('khoa', 'Database\KhoaControllerDB@insertData');
+});

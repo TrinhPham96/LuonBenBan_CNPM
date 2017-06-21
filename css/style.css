@@ -132,6 +132,78 @@ input[type="button"],input[type="submit"],li.parallelogram{
     -o-transition:0.5s all;
     -ms-transition:0.5s all;
 }
+    
+.doctor, .listDoctors a:hover{
+    text-decoration: none;
+
+}
+
+.listDoctors{
+    margin-top: 10px;
+    float: left;
+}
+
+.doctor{
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.txtDoctorName{
+    float: left;
+    margin-left: 10px;
+}
+
+.imgLinkToDoctor{
+    border-radius: 50px;
+}
+
+.line{
+    border: solid rgb(195, 195, 195) 0.1px;
+    height: 111px;
+    float: right;
+    margin-top: 15px;        
+}
+
+.listBenh, .lstBenh, .listMedicine, .lstMedicine{
+    margin-top: 10px;
+}
+
+.listMedicine, .listBenh, .listDoctors{
+    display: block;
+}
+
+.lblListDoctors {
+    margin-left: 220px;
+}
+
+.lblBenh{
+    margin-left: 75px;
+}
+
+.lblMedicine{
+    margin-left: 35px;
+}
+
+.lblPre, .lblNext {
+    margin-top: 60px;
+    float: left;
+}
+
+.intro2{
+    float: left;
+}
+
+.lblKhoaName{
+    color: rgb(46, 66, 252);
+    margin-top: 20px;
+}    
+    
+.page{
+    text-align: center;
+}
+
 h1,h2,h3,h4,h5,h6{
    margin:0;    
 }   
@@ -723,9 +795,10 @@ a.navbar-brand img {
     text-align: right;
 }
 .medicinal-w3-left p,.medicinal-w3-left1 p {
-      line-height: 1.9em;
+    margin-left: 50px;
+    line-height: 1.9em;
     margin-top: 0.7em;
-    font-size: 0.9em;
+    font-size: 1em;
     /*color: #E0DFDF;*/
 }
 .medicinal-w3-grids h4{
@@ -1379,6 +1452,12 @@ ul.ab li a:hover{
     font-size: 2em;
     text-transform: uppercase;
 }
+
+.mb-60 h6{
+    padding-left: 0;
+    font-size: 2em;
+}
+
 .list-group-item {
     position: relative;
     display: block;
@@ -2432,9 +2511,7 @@ float:left;
        font-size: 1.5em;
     }
 
-    .page{
-        text-align: center;
-    }
+    
 
     nav.pagination {
         margin-left: 100px;
@@ -2446,81 +2523,7 @@ float:left;
         margin-left: 100px;
     }
 
-    .doctor, .listDoctors a:hover{
-        text-decoration: none;
-
-    }
-
-    .listDoctors{
-        margin-top: 10px;
-        float: left;
-    }
-
-    .doctor{
-        display: inline-block;
-        margin-top: 10px;
-        margin-right: 10px;
-        text-align: center;
-    }
-
-    .txtDoctorName{
-        float: left;
-        margin-left: 10px;
-    }
-
-    .imgLinkToDoctor{
-        border-radius: 50px;
-    }
-
-    .imgLinkToDoctor1{
-        margin-left: 30px;
-    }
-
-
-    .lblPre{
-        float: left;
-    }
-
-    .line{
-        border: solid rgb(195, 195, 195) 0.1px;
-        height: 111px;
-        float: right;
-        margin-top: 15px;        
-    }
-
-    .listBenh, .lstBenh, .listMedicine, .lstMedicine{
-        margin-top: 10px;
-    }
-
-    .listMedicine, .listBenh, .listDoctors{
-        display: block;
-    }
-
-    .lstMedicine{
-        margin-left: 90px;
-
-    }
-
-    .lstBenh{
-        margin-left: 60px;
-    }
-
-    .lblListDoctors {
-        margin-left: 250px;
-    }
-
-    .lblPre, .lblNext {
-        margin-top: 100px;
-    }
-
-    .intro2{
-        float: left;
-    }
-
-    .lblKhoaName{
-        color: rgb(46, 66, 252);
-        margin-top: 20px;
-    }
+    
 
     .nav-tabs>li>a {
         margin: 0 1px;
@@ -3374,6 +3377,7 @@ float:left;
         margin-top: 0.7em;
         font-size: 0.85em;
     }
+
     .nbs-flexisel-item {
         float: left;
         margin: 0px;
@@ -3649,8 +3653,7 @@ float:left;
     }
 
 .search_content{
-     padding: 3em 0 0 0;
-<<<<<<< HEAD
+    padding: 3em 0 0 0;
     height: 580px;
 }
 
@@ -3662,6 +3665,7 @@ float:left;
 
 .lbSpeciList, .lblKhoaName{
     margin-left: 10px;
+    margin-top: 10px;
 }
 
 .lbSpeciList{
@@ -3669,9 +3673,6 @@ float:left;
     color: rgb(46, 66, 252);
 }
 
-=======
-    height: 600px;
-}
 .search_content-grids h4{
     font-weight: 600;
     color: #e45753;

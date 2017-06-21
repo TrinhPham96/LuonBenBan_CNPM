@@ -24,10 +24,20 @@ class MyFirstController extends Controller
     	$data['tenKhoa'] = $tenKhoa;
     	return view('pages.specialDetail', $data);
     }
+
     public function getHelp(){
     	return view('pages.help');
     }
-   public function getLogin(){
-   	return view('pages.login');
-   }
+
+    public function getLogin(){
+        return view('pages.login');
+    }
+
+    public function getContact(){
+        return view('pages.contact');
+    }
+
+    public function getQuiz(){
+        return view('pages.quiz');
+    }
 }

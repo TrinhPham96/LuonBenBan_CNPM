@@ -15,7 +15,6 @@
 				<button class="btn lblListDoctors" disabled="">Các bác sĩ</button></br>
 
 				<a class="lblPre" href="">Trước</a>
-				<div class="clearfix"></div>
 				<div class="col-md-3 doctor">
 					<a href="#9">
 						<img class="imgLinkToDoctor imgLinkToDoctor1" src="{{asset('images/hinhBacSi.jpg')}}" width="120px" height="120px">
@@ -61,18 +60,17 @@
 		</div>
 
 		<div class="col-md-8 medicinal-w3-left1">
-			<h6 class="lblKhoaName">Khoa sản</h6>
+			<h6 class="lblKhoaName">Giới thiệu</h6>
 			<p>
 				Là một bốn phân ngành y khoa quan trọng của khối lâm sàng. Khoa có chức năng chẩn đoán và điều trị các bệnh lý và dự phòng sức khỏe của nữ giới, bao gồm phụ nữa còn độc thân và đã mang thai, sinh con. Khoa có thể được phân tách thành Sản khoa và phụ khoa.
-				
 			</p>
+
 			<p>
 				Là một bốn phân ngành y khoa quan trọng của khối lâm sàng. Khoa có chức năng chẩn đoán và điều trị các bệnh lý và dự phòng sức khỏe của nữ giới, bao gồm phụ nữa còn độc thân và đã mang thai, sinh con. Khoa có thể được phân tách thành Sản khoa và phụ khoa.
-				
 			</p>
+			
 			<p>
 				Là một bốn phân ngành y khoa quan trọng của khối lâm sàng. Khoa có chức năng chẩn đoán và điều trị các bệnh lý và dự phòng sức khỏe của nữ giới, bao gồm phụ nữa còn độc thân và đã mang thai, sinh con. Khoa có thể được phân tách thành Sản khoa và phụ khoa.
-				
 			</p>
 		</div>
 
