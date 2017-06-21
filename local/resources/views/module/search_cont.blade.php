@@ -8,14 +8,18 @@
 		<div class="search_content-grids">
 			<div class="col-md-4 ">
 				<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b imgSickness">
-					<a href="#" class="hi-icon icon3"></a>
+					<a href="{{url("/")}}/benh" class="hi-icon icon3"></a>
 				</div>
 				<h4 class="imgSickness">Bệnh</h4>
 			</div>
 
 			<div class="col-md-4 ">
 				<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
+<<<<<<< HEAD
 					<a href="/LuonBenBan_CNPM/danh-sach-khoa" class="hi-icon icon3"></a>
+=======
+					<a href="{{url("/")}}/danh-sach-bac-si" class="hi-icon icon3"></a>
+>>>>>>> beo
 				</div>
 				
 				<h4>Bác sĩ</h4>

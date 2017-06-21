@@ -50,6 +50,7 @@
 				<div class="border2"></div>
 				<div class="flickr-grids">
 					<div class="flickr-grid">
+<<<<<<< HEAD
 						<a href="#"><img src="{{asset('images/t1.jpg')}}" alt=" " title="CEO" /></a>
 					</div>
 					<div class="flickr-grid">
@@ -57,10 +58,20 @@
 					</div>
 					<div class="flickr-grid">
 						<a href="#"><img src="{{asset('images/t3.jpg')}}" alt=" " title="CEO" /></a>
+=======
+						<a href="#"><img src="{{ asset('images/t1.jpg') }}" alt=" " title="CEO" /></a>
+					</div>
+					<div class="flickr-grid">
+						<a href="#"><img src="{{ asset('images/t2.jpg') }}" alt=" " title="GM" /></a>
+					</div>
+					<div class="flickr-grid">
+						<a href="#"><img src="{{ asset('images/t3.jpg') }}" alt=" " title="CEO" /></a>
+>>>>>>> beo
 					</div>
 					<div class="clearfix"> </div>
 					
 					<div class="flickr-grid">
+<<<<<<< HEAD
 						<a href="#"><img src="{{asset('images/t2.jpg')}}" alt=" " title="GM" /></a>
 					</div>
 					<div class="flickr-grid">
@@ -68,6 +79,15 @@
 					</div>
 					<div class="flickr-grid">
 						<a href="#"><img src="{{asset('images/t1.jpg')}}" alt=" " title="GM" /></a>
+=======
+						<a href="#"><img src="{{ asset('images/t2.jpg') }}" alt=" " title="GM" /></a>
+					</div>
+					<div class="flickr-grid">
+						<a href="#"><img src="{{ asset('images/t3.jpg') }}" alt=" " title="CEO" /></a>
+					</div>
+					<div class="flickr-grid">
+						<a href="#"><img src="{{ asset('images/t1.jpg') }}" alt=" " title="GM" /></a>
+>>>>>>> beo
 					</div>
 					<div class="clearfix"> </div>
 				</div>

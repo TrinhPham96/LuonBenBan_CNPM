@@ -10,6 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+
 Route::get('/trang-chu', 'MyFirstController@getIndex');
 
 Route::get('/tra-cuu', 'MyFirstController@getSearch');
@@ -19,6 +20,7 @@ Route::get('/danh-sach-khoa', 'MyFirstController@getSpecialList');
 Route::get('/chi-tiet-khoa/{tenKhoa}', 'MyFirstController@getSpecialDetail');
 
 Route::get('/ho-tro','MyFirstController@getHelp');
+<<<<<<< HEAD
 
 Route::get('/dang-nhap','MyFirstController@getLogin');
 
@@ -29,3 +31,15 @@ Route::get('/thong-tin','MyFirstController@getContact');
 Route::group(['prefix' => 'insertDataIntoTable'], function(){
 	Route::get('khoa', 'Database\KhoaControllerDB@insertData');
 });
+=======
+Route::get('/dang-nhap','admin\LoginController@getLogin');
+Route::post('/dang-nhap','admin\LoginController@postLogin');
+Route::post('/dang-ki','admin\LoginController@postRegister');
+Route::get('/dang-xuat','admin\LoginController@getLogout');
+Route::get('danh-sach-bac-si','MyFirstController@getListDoctor');
+Route::get('chi-tiet-bac-si','MyFirstController@getDetailsDoctor');
+Route::get('chi-tiet-bac-si/xac-nhan-dat-kham','MyFirstController@getConfirmRequest');
+
+Route::get('/benh','MyFirstController@getSick');
+
+>>>>>>> beo

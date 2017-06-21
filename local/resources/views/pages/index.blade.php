@@ -3,7 +3,7 @@
 @section('main')
 
 <div class="top_banner">
-	<!-- SVG Arrows -->
+	
 	@include('module.banner')
 
 </div>
