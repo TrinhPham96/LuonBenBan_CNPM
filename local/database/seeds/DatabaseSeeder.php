@@ -11,6 +11,19 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call(UsersTableSeeder::class);
+    	// $this->call(HinhAnh::class);
+    	// $this->call(Khoa::class);
+    	// $this->call(LoaiThuoc::class);
+    	// $this->call(NguoiDung::class);
+    	// $this->call(Meo::class);
+    	// $this->call(TinTuc::class);
+    	// $this->call(BacSi::class);
+    	// $this->call(Benh::class);
+    	// $this->call(Thuoc::class);
+    	// $this->call(TracNghiem::class);
+    	// $this->call(ThongTin::class);
+        $this->call(HoTro::class);
+    	
+    	// Search kiểu Date table Bác sĩ là ra hết nhaaaa
     }
 }
