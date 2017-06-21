@@ -12,7 +12,6 @@ class MyFirstController extends Controller
     	return  view('pages.index');
     }
 
-<<<<<<< HEAD
     public function getSearch(){
     	return view('pages.search');
     }
@@ -26,17 +25,14 @@ class MyFirstController extends Controller
     	return view('pages.specialDetail', $data);
     }
 
-=======
     public function getListDoctor(){
     	return view('pages.listDoctor');
     }
 
->>>>>>> beo
     public function getHelp(){
     	return view('pages.help');
     }
 
-<<<<<<< HEAD
     public function getLogin(){
         return view('pages.login');
     }
@@ -48,7 +44,6 @@ class MyFirstController extends Controller
     public function getQuiz(){
         return view('pages.quiz');
     }
-=======
     public function getDetailsDoctor(){
     	return view ('pages.detailsDoctor');
 
@@ -59,14 +54,11 @@ class MyFirstController extends Controller
 
 
     }
-    public function getSearch(){
-        return view('pages.search');
-    }
+    
     public function getSick(){
 
         return view('pages.sick');
     }
     
 
->>>>>>> beo
 }
