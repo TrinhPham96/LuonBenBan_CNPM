@@ -17,7 +17,7 @@ class CreatedTracNghiem extends Migration
             $table->increments('ma_cau');
             $table->string('noi_dung');
             $table->integer('ma_dap_an');
-            $table->string('dan_an');
+            $table->string('dap_an');
             $table->integer('ma_benh')->unsigned();
             $table->integer('ma_hinh_anh')->unsigned();
             $table->foreign('ma_benh')->references('ma_benh')->on('benh');
