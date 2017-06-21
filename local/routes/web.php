@@ -10,7 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-<<<<<<< HEAD
+// <<<<<<< HEAD
 
 Route::get('trang-chu', 'MyFirstController@getIndex');
 
@@ -23,9 +23,9 @@ Route::get('chi-tiet-bac-si/xac-nhan-dat-kham','MyFirstController@getConfirmRequ
 // Route::get('/trang-chu', 'MyFirstController@getIndex');
 // Route::get('/tra-cuu', 'MyFirstController@getSearch');
 // >>>>>>> master
-=======
+// =======
 Route::get('/trang-chu', 'MyFirstController@getIndex');
 Route::get('/tra-cuu', 'MyFirstController@getSearch');
 Route::get('/ho-tro','MyFirstController@getHelp');
 Route::get('/dang-nhap','MyFirstController@getLogin');
->>>>>>> beo
+// >>>>>>> beo
